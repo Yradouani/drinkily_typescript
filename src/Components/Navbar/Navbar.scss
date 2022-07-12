@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    background-color: aliceblue;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 1px black;
+
+    h1 {
+        margin-left: 40px;
+        font-size: 45px;
+        font-family: 'Cormorant SC', serif;
+        color: rgb(55, 91, 80);
+    }
+
+    .MuiFormControl-root {
+        margin-right: 30px;
+    }
+
+    #filled-basic {
+        height: 20px;
+        margin-right: 40px;
+    }
+}

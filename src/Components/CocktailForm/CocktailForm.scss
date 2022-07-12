@@ -1,0 +1,65 @@
+.modal {
+    border-radius: 5px;
+}
+
+.ReactModal__Overlay {
+    // display: flex;
+    // justify-content: center;
+    position: relative;
+    z-index: 999;
+
+}
+
+.ReactModal__Content {
+    width: 45%;
+    height: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    border-radius: 10px !important;
+    padding: 0 !important;
+
+    .img_ingredient_container {
+        display: flex;
+        height: 70%;
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            margin: auto;
+            padding: 10px;
+
+            .MuiFormControl-root {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        background-color: aliceblue;
+        width: 100%;
+        margin: 0;
+        padding: 25px 0;
+    }
+
+    img {
+        width: 60%;
+        max-height: 70%;
+    }
+
+    .button_container {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+
+        button {
+            margin: 5px;
+        }
+    }
+}
