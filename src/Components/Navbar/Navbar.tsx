@@ -22,7 +22,7 @@ const Navbar = (props: INavbar) => {
     return (
         <div className='navbar'>
             <h1>Drinkily</h1>
-            <div>
+            <div className='icon_search_container'>
                 <Checkbox
                     {...label}
                     icon={<FavoriteBorderIcon />}

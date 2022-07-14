@@ -17,6 +17,10 @@
         color: rgb(55, 91, 80);
     }
 
+    .icon_search_container {
+        display: flex;
+    }
+
     .icon {
         margin-right: 50px;
     }
@@ -28,5 +32,19 @@
     #filled-basic {
         height: 20px;
         margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .icon_search_container {
+        margin-bottom: 30px;
+
+        .MuiFormControl-root {
+            margin-right: 0;
+        }
     }
 }

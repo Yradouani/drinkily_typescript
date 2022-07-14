@@ -56,3 +56,19 @@
         }
     }
 }
+
+@media screen and (max-width: 493px) {
+    .cocktail_card_container {
+        width: 100% !important;
+
+        .cocktail-card {
+            width: 100% !important;
+            height: 40em !important;
+
+            img {
+                height: 70%;
+                width: 70%;
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@ import './App.css';
 import CocktailCard from './Components/CocktailCard/CocktailCard';
 import Navbar from './Components/Navbar/Navbar';
 import cocktailList from './models/CocktailList';
-import { Cocktail, ICocktail } from './models/Cocktail';
+import { ICocktail } from './models/Cocktail';
 import Modal from 'react-modal';
 import CocktailForm from './Components/CocktailForm/CocktailForm';
 
@@ -29,9 +29,9 @@ function App() {
   const handleSearch = (criteria: string): void => {
     console.log(criteria);
     if (criteria === '') {
-      setCocktails(cocktailList);
+      setCocktailDisplayed(cocktailList);
     } else {
-      setCocktails(
+      setCocktailDisplayed(
         cocktailList.filter(
           cocktail => cocktail.name.toLowerCase().startsWith(criteria.toLowerCase())
         )
